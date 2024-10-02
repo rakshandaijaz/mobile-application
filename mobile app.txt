@@ -1,0 +1,207 @@
+void main (){
+dynamic mapType=new Map();
+mapType ['First']='love';
+mapType['second']='for';
+mapType['third']='pakistan';
+print(mapType);
+
+}
+ans
+Running] dart "d:\Dart\dart-sdk\bin\resources\dartdoc\resources\raks.dart"
+{First: love, second: for, third: pakistan}
+
+import 'dart:io';
+void main (){
+dynamic mapType=new Map();
+mapType ['First']='love';
+mapType['second']='for';
+mapType['third']='pakistan';
+print(mapType);
+stdout.write(mapType['third']);
+}
+ans
+{First: love, second: for, third: pakistan}
+Pakistan
+import 'dart:io';
+1:
+void main (){
+dynamic mapType=new Map();
+print(mapType);
+}
+Ans:
+[Running] dart "d:\Dart\dart-sdk\bin\resources\dartdoc\resources\raks.dart"
+{}
+
+[Done] exited with code=0 in 0.512 seconds
+
+2:
+void main (){
+dynamic mapType={
+    1:'department',
+    2:'of',
+    3:'technology'
+};
+print(mapType);
+stdout.write(mapType[2]);
+}
+aNS:
+[Running] dart "d:\Dart\dart-sdk\bin\resources\dartdoc\resources\raks.dart"
+{1: department, 2: of, 3: technology}
+of
+[Done] exited with code=0 in 0.622 seconds
+3:
+import 'dart:io';
+void main (){
+dynamic mapType=new Map();
+mapType ['First']='i ';
+mapType['second']='want';
+mapType['third']='G wagon';
+print(mapType);
+stdout.write(mapType['third']);
+}
+Ans:
+Running] dart "d:\Dart\dart-sdk\bin\resources\dartdoc\resources\raks.dart"
+{First: i , second: want, third: G wagon}
+G wagon
+[Done] exited with code=0 in 0.671 seconds
+4:
+import 'dart:io';
+
+void main (){
+dynamic mapType = {
+    1:'department',
+    2:'of',
+    3:'technology'
+};
+mapType[4]='IET';
+print(mapType);
+stdout.write(mapType[4]);
+}
+ans:
+[Running] dart "d:\Dart\dart-sdk\bin\resources\dartdoc\resources\raks.dart"
+{1: department, 2: of, 3: technology, 4: IET}
+IET
+[Done] exited with code=0 in 0.651 seconds
+5:
+void main (){
+dynamic mapType = {
+    1:'department',
+    2:'of',
+    3:'technology'
+};
+mapType[4]='IET';
+print(mapType.length);
+
+}
+Ans:
+[Running] dart "d:\Dart\dart-sdk\bin\resources\dartdoc\resources\raks.dart"
+4
+
+[Done] exited with code=0 in 0.607 seconds
+1:
+void main (){
+double n=8;
+int t=8;
+num s=8;
+print(n.hashCode);
+print(t.isFinite);
+print(identityHashCode(s));
+double result=5/0;
+print(result);
+print(result.isInfinite);
+double nanresult=0/0;
+print(nanresult);
+print(nanresult.isNaN);
+int g=5;
+print(g.isNegative);
+print(g.sign);
+print(g.isEven);
+print(g.isOdd);
+}
+Ans:
+Running] dart "d:\Dart\dart-sdk\bin\resources\dartdoc\resources\raks.dart"
+92808
+true
+92808
+Infinity
+true
+NaN
+true
+false
+1
+false
+true
+
+[Done] exited with code=0 in 0.524 seconds
+1:
+void main (){
+int a=15;
+int b=9;
+int c;
+c=a+b;
+print(c);
+}
+Ans:
+[Running] dart "d:\Dart\dart-sdk\bin\resources\dartdoc\resources\raks.dart"
+24
+
+[Done] exited with code=0 in 0.557 seconds
+2:
+void main (){
+double a=10.5;
+double b=3.2;
+double c;
+c=a*b;
+print(c);
+}
+
+Ans:
+Running] dart "d:\Dart\dart-sdk\bin\resources\dartdoc\resources\raks.dart"
+33.6
+
+[Done] exited with code=0 in 0.533 seconds
+3:
+void main (){
+dynamic a =-8;
+print(a.abs());
+}
+Ans:
+[Running] dart "d:\Dart\dart-sdk\bin\resources\dartdoc\resources\raks.dart"
+8
+
+[Done] exited with code=0 in 0.55 seconds
+4:
+
+void main (){
+double a1 =7.3;
+double a2 =6.3;
+print(a1.ceil());
+print(a2.ceil());
+print(a1.floor());
+
+}
+Ans:
+[Running] dart "d:\Dart\dart-sdk\bin\resources\dartdoc\resources\raks.dart"
+8
+7
+7
+
+[Done] exited with code=0 in 0.535 seconds
+5:
+void main (){
+double a1 =5;
+double a2 =6.3;
+if(a1>a2)
+print('$a1');
+else
+print('$a2');
+
+}
+Ans:
+[Running] dart "d:\Dart\dart-sdk\bin\resources\dartdoc\resources\raks.dart"
+6.3
+
+[Done] exited with code=0 in 0.576 seconds
+
+
+
